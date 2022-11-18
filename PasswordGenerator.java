@@ -22,8 +22,7 @@ public class PasswordGenerator
 		String numbers = "0123456789";
 		String symbols = "!@#$%^&*_=+-/.?<>)";
 
-		String values = Capital_chars + Small_chars +
-						numbers + symbols;
+		String values = Capital_chars + Small_chars + numbers + symbols;
 
 		Random rndm_method = new Random();
 
