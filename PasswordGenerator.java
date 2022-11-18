@@ -31,8 +31,7 @@ public class PasswordGenerator
 		for (int i = 0; i < lenth; i++)
 		{
 
-			password[i] =
-			values.charAt(rndm_method.nextInt(values.length()));
+			password[i] = values.charAt(rndm_method.nextInt(values.length()));
 
 		}
         return password;
